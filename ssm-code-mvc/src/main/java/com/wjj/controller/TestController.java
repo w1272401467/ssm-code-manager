@@ -1,6 +1,7 @@
 package com.wjj.controller;
 
 
+import com.wjj.model.Message;
 import org.apache.commons.io.FileUtils;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
