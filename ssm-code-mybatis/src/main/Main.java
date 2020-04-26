@@ -12,7 +12,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         //加载配置文件
-        InputStream in = Main.class.getResourceAsStream("resource/mybatis-cfg.xml");
+        InputStream in = Main.class.getResourceAsStream("resources/mybatis-cfg.xml");
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
 
         SqlSession session =factory.openSession();
