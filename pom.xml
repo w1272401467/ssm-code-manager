@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wjj</groupId>
+    <artifactId>ssm-code-manager</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.2</version>
+    <modules>
+        <module>ssm-code-parent</module>
+        <module>ssm-code-mvc</module>
+        <module>ssm-code-mybatis</module>
+        <module>ssm-code-web</module>
+    </modules>
+
+    <name>ssm-code-manager</name>
+
+</project>
