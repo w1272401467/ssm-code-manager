@@ -11,3 +11,7 @@ The purpose of this project is to learn how to build a simple SSM framework.
 
 ps：
 拉取过来的项目也许项目目录会出错（我拉了一次发现resource目录不是资源根目录），导致spring配置加载失败。需要手动设置一下！
+
+以下是正确的目录结构：
+
+[图片]
