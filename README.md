@@ -8,3 +8,6 @@ The purpose of this project is to learn how to build a simple SSM framework.
 3.ssm-code-web 这是一个简单的ssm整合模块，整合了springmvc mybatis 和spring。也是通过配置tomcat容器可以启动。
 
 这个项目主要作为自己ssm框架搭建的学习项目。
+
+ps：
+拉取过来的项目也许项目目录会出错（我拉了一次发现resource目录不是资源根目录），导致spring配置加载失败。需要手动设置一下！
