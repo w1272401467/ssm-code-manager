@@ -10,8 +10,9 @@ The purpose of this project is to learn how to build a simple SSM framework.
 这个项目主要作为自己ssm框架搭建的学习项目。
 
 ps：
-拉取过来的项目也许项目目录会出错（我拉了一次发现resource目录不是资源根目录），导致spring配置加载失败。需要手动设置一下！
+拉取过来的项目也许项目目录会出错，导致spring配置加载失败。需要手动设置一下！
+我拉了一次发现：
+1.resources目录需要设置为Resources Root。
+2.ssm-code-mybatis 里面的main也要设置为Sources Root。
 
-以下是正确的目录结构：
 
-[图片]
